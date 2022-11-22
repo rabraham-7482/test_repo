@@ -9,7 +9,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "ignorePatterns": ["/source/tests/*", "/docs/*", "/node_modules/*"],
+  "ignorePatterns": ["/node_modules/*", ".github/*", "/tests/*"],
   "rules": {
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
