@@ -14,8 +14,6 @@ jobs:
         run: npm run eslint
       - name: run Prettier
         run: npm run prettier-check
-      - name: Validate HTML
-        run: npx html-validate --ext html .
       - name: Validate CSS
         run: echo "look into validate css and find good package"
       - name: Validate JS
